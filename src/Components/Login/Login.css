@@ -1,0 +1,75 @@
+.loginForm {
+  margin: 30px 100px;
+  /* border: 5px solid red; */
+  background-color: rgb(247, 223, 186);
+  padding: 50px;
+  margin: auto;
+  width: 35%;
+  margin-top: 100px;
+  height: 550px;
+}
+.loginForm input {
+  display: block;
+  margin-top: 30px;
+  padding: 8px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  /* font-weight: bold; */
+}
+.error {
+  color: red;
+}
+.mediaStyle {
+  width: 100%;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+.mediaDiv {
+  margin: 30px 100px;
+  padding: 0px;
+  margin: auto;
+  width: 35%;
+  margin-top: 20px;
+}
+.toggleAccount {
+  margin-top: 50px;
+  cursor: pointer;
+  text-align: center;
+}
+.submitBtn {
+  background-color: rgb(255, 188, 43);
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .loginForm {
+    margin: 10px 50px;
+    background-color: rgb(247, 223, 186);
+    padding: 10px;
+    margin: auto;
+    width: 50%;
+    margin-top: 50px;
+    height: 400px;
+  }
+  .loginForm input {
+    border-radius: 5px;
+    width: 100%;
+  }
+  .loginForm h3 {
+    font-size: 20px;
+  }
+  .loginForm h5 {
+    font-size: 15px;
+  }
+  .mediaDiv {
+    margin: 30px 50px;
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+  }
+  
+
+}

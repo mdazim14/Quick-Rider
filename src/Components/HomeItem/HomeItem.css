@@ -1,0 +1,12 @@
+.rider{
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    height: 300px;
+    /* border: 1px solid red; */
+    background-color: rgb(48, 47, 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+  }
